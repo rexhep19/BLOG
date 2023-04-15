@@ -1,0 +1,31 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    position: relative;
+}
+.headerText{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+.smallHeaderText{
+    font-size: 20px;
+    display: flex;
+    align-self: center;
+    position: relative;
+    top: 40px;
+}
+.bigHeaderText{
+    font-size: 75px;
+    display: flex;
+    align-self: center;
+    top: 10px;
+    position: relative;
+    top: 43px;
+}
+.headerImg{
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}

@@ -1,0 +1,25 @@
+.singlePage{
+    display: flex;
+    margin-top: 60px;
+}
+.singlePost{
+    flex: 9;
+    padding: 20px;
+    
+}
+.singlePostImg{
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+.singlePostTitle{
+    text-align: center;
+}
+.singlePostEdit{
+    float: right;
+}
+.singlePostInfo{
+    display: flex;
+    justify-content: space-between;
+}

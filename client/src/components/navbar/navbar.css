@@ -1,0 +1,159 @@
+.Navbar{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    background-color: rgb(244, 240, 240);
+    position: fixed;
+    position: relative;
+    top: 0;
+    color: black;
+    z-index: 999;
+  }
+  
+  .navbarLeft{
+    margin-left: 25px;
+    flex: 3;
+  }
+  
+  .navbarSocial{
+    margin-right: 10px;
+    font-size: 20px;
+  }
+  
+  .navbarLinksHolder{
+    display: flex;
+    list-style: none;
+  }
+  
+  .navbarLinks{
+    margin-right: 25px;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  
+  .navbarRight{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    cursor: pointer;
+    padding-right: 2rem;
+    float: left;
+    flex: 3;
+  }
+  
+  .navbarImg{
+    height:50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .searchIcon{
+    margin-left: 10px;
+  }
+  
+  .topList {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .topListItem {
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+  }
+  
+  .topListItem:hover{
+      color: gray;
+  }
+  
+  .topImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+    cursor: pointer;
+  }
+  
+  .topSearchIcon {
+    font-size: 18px;
+    color: #666;
+    cursor: pointer;
+  }
+  
+  .menu{
+    display: none;
+  }
+  .logo{
+    display: none;
+  }
+  
+  @media screen and (max-width: 768px){
+    .Navbar {
+        position: relative;
+        height: auto;
+        margin-top: 0;
+    }
+  
+    .navbarLeft{
+        display: none;
+    }
+  
+    .navbarLinksHolder{
+        display: block;
+    }
+  
+    .topList {
+        display: none;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 100%;
+        padding: 10px;
+        background-color: rgb(244, 240, 240);
+        flex-direction: column;
+        align-items: flex-end;
+      }
+  
+    .navbarImg, .searchIcon{
+        display: none;
+    }
+  
+    .menu{
+        font-size: 25px;
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 40px;
+    }
+  
+    .navbarCenter {
+      display: none;
+      flex: 6;
+    }
+  
+    .navbarCenter-open {
+      display: block;
+    }
+    .logo{
+        font-size: 30px;
+        margin-bottom: 10px;
+        margin-left: 20px;
+        display: block;
+    }
+    .topList.navbarCenter-open {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+      }
+  }
+  

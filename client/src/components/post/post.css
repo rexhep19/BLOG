@@ -1,0 +1,34 @@
+.post{
+    width: 385px;
+}
+.postImg{
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.headerInfo{
+    display: flex;
+    flex-direction: column;
+}
+.category{
+    align-self: center;
+    color: rgb(215, 183, 146);
+    margin-bottom: 10px;
+}
+.postTitle{
+    align-self: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.postTime{
+    align-self: center;
+    color: rgb(111, 116, 120);
+}
+.postDesc{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}

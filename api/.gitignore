@@ -1,0 +1,3 @@
+# Ignore the images directory
+/images
+node_modules/

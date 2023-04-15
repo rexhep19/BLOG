@@ -1,0 +1,62 @@
+.write{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 60px;
+    align-items: center;
+    padding-top: 50px;
+
+}
+.writeGroup{
+    display: flex;
+    flex-direction: column;
+}
+.writeImg{
+    width: 70vw;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: none;
+}
+.headerWrite{
+    margin: 20px 0;
+}
+.writeTitle{
+    border: none;
+    margin-left: 5px;
+    font-size: 25px;
+}
+.writeTitle:hover::placeholder {
+    color: rgb(72, 70, 70)
+}
+.writeTitle:focus{
+    outline: none;
+}
+.writeIcon{
+    font-size: 25px;
+    cursor: pointer;
+}
+.writeText{
+    width: 70vw;
+    border: none;
+    font-size: 20px;
+    resize: none;
+}
+.writeText:focus{
+    outline: none;
+}
+.writeText:hover::placeholder {
+    color: rgb(72, 70, 70)
+}
+.publishButton{
+    float: right;
+    background-color: #4cd3a6;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.publishButton:hover{
+    background-color: #3bb98f;
+}

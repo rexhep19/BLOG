@@ -1,0 +1,14 @@
+.posts{
+    display: grid;
+    flex-wrap: wrap;
+    padding: 20px;
+    flex: 9;
+    justify-content: center;
+}
+
+@media screen and (min-width: 850px) {
+    .posts{
+      grid-template-columns: 1fr 1fr;
+  }
+
+}

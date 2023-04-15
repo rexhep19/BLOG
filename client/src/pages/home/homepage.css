@@ -1,0 +1,14 @@
+.home {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: center;
+  }
+  
+  @media screen and (max-width: 1300px) {
+    .home {
+      flex-direction: column;
+      padding: 10px;
+    }
+  }
+  
